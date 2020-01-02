@@ -6,6 +6,8 @@
   <title>ProdByKC</title>
 
   <!-- CSS  -->
+  <!-- font awesome -->
+
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -17,14 +19,26 @@
       <ul class="right hide-on-med-and-down">
         <li><a href="about.html" class="white-text">About</a></li>
         <li><a href="beats.html" class="white-text">Beats</a></li>
-        <li><a href="mix.html" class="white-text">Mixing & Mastering</a></li>
+        <li><a href="mixing.html" class="white-text">Mixing</a></li>
         <li><a href="myWork.html" class="white-text">My Work</a></li>
+        <li><a href="https://www.instagram.com/abhinavchadaga/" class="tooltipped btn-floating btn-small grey darken-4" data-tooltip="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a></li>
+        <li><a href="#" class="tooltipped btn-floating btn-small grey darken-4" data-tooltip="Beatstars">
+          <i class="fas fa-drum"></i>
+        </a></li>
+        <li><a href="#" class="tooltipped btn-floating btn-small grey darken-4" data-tooltip="Youtube">
+          <i class="fab fa-youtube"></i>
+        </a></li>
+        <li><a href="#" class="tooltipped btn-floating btn-small grey darken-4" data-tooltip="Spotify">
+          <i class="fab fa-spotify"></i>
+        </a></li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
         <li><a href="about.html">About</a></li>
         <li><a href="beats.html">Beats</a></li>
-        <li><a href="mix.html">Mixing & Mastering</a></li>
+        <li><a href="mixing.html">Mixing</a></li>
         <li><a href="myWork.html">My Work</a></li>
       </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger">
@@ -45,7 +59,6 @@
           <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light red darken-1">Start Your Project</a>
         </div>
         <br><br>
-
       </div>
     </div>
     <div class="parallax"><img src="images/mixingConsole1.jpg"></div>
@@ -124,56 +137,38 @@
           <div class="input-field col s12">
             <input id="email" type="text" class="validate">
             <label for="email">Email</label>
-            
+          </div>
+          <div>
+            <div class="input-field col s12">
+              <input id="message"type="text" class="validate">
+              <label for="message">Message</label>
+            </div>
           </div>
         </form>
       </div>
     </div>
-
   </section>
 
-    </div>
-
-  </section>
-
-
+<!--Third Image-->
   <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src="images/studio1.png"></div>
   </div>
 
   <footer class="page-footer red darken-1">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
-
+          <h5 class="white-text">Work with Me</h5>
+          <p>I offer a variety of servies to help you make the next big hit, whether it be producing beats, tracking stellar vocals, or adding the final polish to your record.
+          Check out my social medias to the right to stay updated with my latest work. When you're ready to create the next big hit, click the button below to start your project. </p>
         </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
+      </div>
+      <div class="row">
+        <div class="col s12 l6 offset-l2">
+          <a href="#" class="grey darken-4 waves-effect waves-light btn">
+            <span>Start Your Project</span>
+            <i class="material-icons left">people_outline</i>
+          </a>
         </div>
       </div>
     </div>
@@ -189,6 +184,11 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script src="https://kit.fontawesome.com/206f43baf5.js" crossorigin="anonymous"></script>
+  <script>
+    $('.tooltipped').tooltip();
+  </script>
+
 
   </body>
 </html>
