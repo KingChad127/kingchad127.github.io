@@ -2163,6 +2163,9 @@ html {
  */
 body {
   margin: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 /**
@@ -9056,3 +9059,14 @@ input[type=range]::-ms-thumb {
     margin-top: 1.2rem;
   }
 }
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+    
