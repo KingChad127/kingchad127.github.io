@@ -1,0 +1,11 @@
+#gallery {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    .container-fluid{
+        max-width: 1920px;
+        .galleryPicture{
+            position: relative;
+            display: block;
+        }
+    }
+}
