@@ -10005,6 +10005,16 @@ img::-moz-selection {
   margin-right: 1rem;
 }
 
+.btn-fiverr {
+  background-color: #1DBF73;
+  color: white;
+}
+.btn-fiverr:active, .btn-fiverr:focus, .btn-fiverr:hover {
+  background-color: #169358 !important;
+  border-color: #169358 !important;
+  color: #e6e6e6 !important;
+}
+
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
