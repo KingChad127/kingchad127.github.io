@@ -28,6 +28,19 @@
     margin-right: 1rem;
 }
 
+.btn-spotify{
+    background-color: #1CB955;
+    border-color: #1CB955;
+    color: white;
+    &:active,
+    &:focus,
+    &:hover {
+        background-color: darken(#1CB955, 10%) !important;
+        border-color: darken(#1CB955, 10%) !important;
+        color: darken(white, 10%) !important;;
+    }
+}
+
 .btn-fiverr{
     background-color: #1DBF73;
     color: white;

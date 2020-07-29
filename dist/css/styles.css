@@ -10005,6 +10005,17 @@ img::-moz-selection {
   margin-right: 1rem;
 }
 
+.btn-spotify {
+  background-color: #1CB955;
+  border-color: #1CB955;
+  color: white;
+}
+.btn-spotify:active, .btn-spotify:focus, .btn-spotify:hover {
+  background-color: #158d41 !important;
+  border-color: #158d41 !important;
+  color: #e6e6e6 !important;
+}
+
 .btn-fiverr {
   background-color: #1DBF73;
   color: white;
